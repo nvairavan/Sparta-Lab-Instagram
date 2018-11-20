@@ -1,13 +1,18 @@
 body{
-  background-color: whitesmoke
+  background-color: whitesmoke;
 }
 
-.right {
+.maincontainer{
   display: flex;
   justify-content: flex-start
 }
 
-.box {
+.left{
+  float: left;
+}
+
+.right {
+  float: right;
   width: 350px;
   height: 500px;
   background-color: white;
@@ -16,10 +21,20 @@ body{
   margin: 25px;
 }
 
+/* .box {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  border: 0;
+  padding: 25px;
+  margin: 25px;
+} */
+
 
 .signup{
   color: #999999;
   font-size: 17px;
+  font-style: inherit
   text-align: center;
   font-weight: bold
 }
